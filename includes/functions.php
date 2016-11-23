@@ -1,6 +1,6 @@
 <?php
 
-include('../vendor/autolad.php');
+include('../vendor/autoload.php');
 
 function secu($val) {
   return trim(strip_tags($val));
