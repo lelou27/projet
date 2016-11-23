@@ -1,6 +1,36 @@
+/*stylisme du header*/
+header{
+  display: flex;
+  align-items: center;
+}
+.navbar{
+  border: none;
+  border-radius: 0px;
+}
 header h1{
   color: rgba(255, 255, 255, 0.83);
-  margin-left: 2em;
+  margin: 0 0 0 2em;
+}
+header ul{
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+}
+header ul li{
+  display: inline;
+  margin-right: 1.2em;
+  margin-top: .5em;
+}
+header li a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.66);
+  padding: .3em;
+}
+header li a:hover{
+  color: rgba(244, 67, 54, 0.74);
+  text-decoration: none;
+  border: 1px solid rgba(244, 67, 54, 0.74);
+  border-radius: 5px;
 }
 
 /*stylisation du formulaire de contact*/
