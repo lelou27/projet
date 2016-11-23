@@ -8,6 +8,7 @@
 //                "content" : error_content
 
 $('#form_contact').on('submit', function(event){
+  event.preventDefault();
   var form = $('#form_contact');
   var data = form.serialize();
   data += '&isAjax=true&Envoyer=true';
