@@ -23,19 +23,14 @@ if(!empty($_POST['Envoyer'])) {
 
     $mail = new PHPMailer;
 
-    $mail->setFrom($email, $nickname);
-    $mail->addAdress('admin@contact.php');
+    $mail->setFrom($email, $fullname);
+    $mail->addAddress('admin@contact.php');
 
     $mail->Subject = 'Demande d\'informations';
     $mail->Body = '<p>' . $content . '</p>';
     $mail->AltBody = $content;
-
-    if(!$mail->send()) {
-      echo 'Message could not be sent.';
-      echo 'Mailer Error: ' . $mail->ErrorInfo;
-    } else {
-        echo 'Message has been sent';
-    }
+    $success = true;
+    $mail->send();
 
   }
 
