@@ -6,10 +6,11 @@ header{
 .navbar{
   border: none;
   border-radius: 0px;
+  margin-bottom: 0;
 }
 header h1{
   color: rgba(255, 255, 255, 0.83);
-  margin: 0 0 0 2em;
+  margin-left: 2em;
 }
 header ul{
   list-style: none;
@@ -45,4 +46,25 @@ header li a:hover{
 }
 .form_contact label{
   margin-top: 1em;
+}
+
+/*style de la section sur les dev*/
+.presentationDev{
+  background-color: rgb(121, 85, 72);
+}
+.kiluak{
+  width: 100%;
+}
+.presentationDev h1{
+  text-align: center;
+  margin-bottom: .5em;
+  margin-top: .5em;
+  color: rgba(255, 255, 255, 0.69);
+}
+
+/*style du footer*/
+footer{
+  display: flex;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.78);
 }
