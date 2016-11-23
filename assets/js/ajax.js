@@ -19,6 +19,7 @@ $('#form_contact').on('submit', function(event){
     data: data,
 
     success: function(response){
+      console.log(response);
       if(typeof response != 'undefined'){
         if(response.success === true){
           $('.container').html('<p class="text-align alert-success">Message envoyé</p>');

@@ -44,6 +44,7 @@ if(!empty($isAjax) && $isAjax == true) {
   );
 
   $json = json_encode($response);
+  header('content-type: application/json');
   die($json);
 
 } else {

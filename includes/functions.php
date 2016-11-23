@@ -6,7 +6,7 @@ function secu($val) {
   return trim(strip_tags($val));
 }
 
-function verif($val, $min, $max, $errmsg, $mail = false) {
+function verif($val, $min, $max, $errmsg, $email = false) {
 
   $error = '';
 
@@ -15,13 +15,11 @@ function verif($val, $min, $max, $errmsg, $mail = false) {
     if(strlen($val) < $min) {
 
       $error = '* ' . $errmsg . ' est trop court.';
-      return;
     }
 
     if(strlen($val) > $max) {
 
       $error = '* ' . $errmsg . ' est trop long.';
-      return;
 
     }
 
@@ -30,7 +28,7 @@ function verif($val, $min, $max, $errmsg, $mail = false) {
       if(filter_var($val, FILTER_VALIDATE_EMAIL) == false) {
 
         $error = '* ' . $errmsg . ' n\'est pas valide.';
-        return;
+
 
       }
 
@@ -39,7 +37,6 @@ function verif($val, $min, $max, $errmsg, $mail = false) {
   } else {
 
     $error = '* Veuillez renseigner ce champs.';
-    return;
 
   }
 
