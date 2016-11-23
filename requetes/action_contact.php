@@ -11,7 +11,7 @@ if(!empty($_POST['Envoyer'])) {
   $isAjax = secu($_POST['isAjax']);
 
   $verif = verif($fullname, 5, 100, 'Votre nom');
-  if(!empty($verif)) { $errors['nickname'] = $verif; }
+  if(!empty($verif)) { $errors['fullname'] = $verif; }
 
   $verif = verif($email, 5, 120, 'Votre email');
   if(!empty($verif)) { $errors['email'] = $verif; }
