@@ -24,22 +24,22 @@ $('#form_contact').on('submit', function(event){
           $('.container').html('<p class="text-align alert-success">Message envoyé</p>');
         }
         else{
-          if(typeof response.error['fullname'] != 'undefined'){
-            $('#error_fullname').html(response.error['fullname']).removeClass('hidden');
+          if(typeof response.errors['fullname'] != 'undefined'){
+            $('#error_fullname').html(response.errors['fullname']).removeClass('hidden');
           }
           else{
             $('#error_fullname').html('').addClass('hidden');
           }
 
-          if(typeof response.error['email'] != 'undefined'){
-            $('#error_email').html(response.error['email']).removeClass('hidden');
+          if(typeof response.errors['email'] != 'undefined'){
+            $('#error_email').html(response.errors['email']).removeClass('hidden');
           }
           else{
             $('#error_email').html('').addClass('hidden');
           }
 
-          if(typeof response.error['content'] != 'undefined'){
-            $('#error_content').html(response.error['content']).removeClass('hidden');
+          if(typeof response.errors['content'] != 'undefined'){
+            $('#error_content').html(response.errors['content']).removeClass('hidden');
           }
           else{
             $('#error_content').html('').addClass('hidden');
