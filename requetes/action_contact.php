@@ -38,10 +38,10 @@ if(!empty($_POST['Envoyer'])) {
     }
 
   }
-  
+
 }
 
-if($isAjax == true) {
+if(!empty($isAjax) && $isAjax == true) {
 
   $response = array(
     'errors' => $errors,

@@ -1,10 +1,10 @@
 <?php
 
-include('includes/functions.php');
+include('./includes/functions.php');
 
 if(!empty($_GET['action'])) {
 
-  $action = trim(strip_tags($_GET['action']));
+  $action = secu($_GET['action']);
 
   if($action == 'contact') {
 
