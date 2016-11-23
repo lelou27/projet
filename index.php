@@ -12,7 +12,7 @@ include 'includes/header.php';
         <div class="caption">
           <h3>Geelik</h3>
           <p>Geelik est un développeur expérimenté, sa spécialité, le php !</p>
-          <p><a href="#" class="btn btn-primary" role="button">Voir le profil</a></p>
+          <p><a href="https://github.com/Geelik" target="_blank" class="btn btn-primary" role="button">Voir le profil</a></p>
         </div>
       </div>
     </div>
@@ -23,7 +23,7 @@ include 'includes/header.php';
         <div class="caption">
           <h3>choupipek</h3>
           <p>Choupipek est un développeur issu d'un BTS IRIS, il aime le back comme le front</p>
-          <p><a href="#" class="btn btn-primary" role="button">Voir le profil</a></p>
+          <p><a href="https://github.com/choupipek" target="_blank" class="btn btn-primary" role="button">Voir le profil</a></p>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@ include 'includes/header.php';
         <div class="caption">
           <h3>K1LU4K</h3>
           <p>K1LU4K est un développeur très a l'aise sur le back ! Il est également expérimenté en POO</p>
-          <p><a href="#" class="btn btn-primary" role="button">Voir le profil</a></p>
+          <p><a href="https://github.com/K1LU4K" target="_blank" class="btn btn-primary" role="button">Voir le profil</a></p>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@ include 'includes/header.php';
         <div class="caption">
           <h3>Lelou</h3>
           <p>Lelou est un développeur préférant le back, mais trouve le front très intéressant également</p>
-          <p><a href="#" class="btn btn-primary" role="button">Voir le profil</a></p>
+          <p><a href="https://github.com/lelou27" target="_blank" class="btn btn-primary" role="button">Voir le profil</a></p>
         </div>
       </div>
     </div>
