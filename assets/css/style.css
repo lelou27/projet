@@ -1,0 +1,18 @@
+header h1{
+  color: rgba(255, 255, 255, 0.83);
+  margin-left: 2em;
+}
+
+/*stylisation du formulaire de contact*/
+.form_contact{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.form_contact .submit{
+  align-items: center;
+  margin-top: 1em;
+}
+.form_contact label{
+  margin-top: 1em;
+}
